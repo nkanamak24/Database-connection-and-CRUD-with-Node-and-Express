@@ -1,6 +1,6 @@
 const mysql = require('mysql2');
 
-const myConnectionString = "mysql://user_nk:xxxx@localhost:3306/netdb";
+const myConnectionString = "mysql://user_nk:????@localhost:3306/netdb";
 const connection = mysql.createPool(myConnectionString);
 
 module.exports = connection;
